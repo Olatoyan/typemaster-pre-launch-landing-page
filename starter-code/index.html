@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Typemaster pre-launch landing page</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="font-barlow">
+    <div>
+      <header class="pb-16 pt-24 sma:pt-16 xsm:pt-10">
+        <nav
+          class="flex justify-between items-center max-w-144 mx-auto px-36 xlg:px-24 mid:px-16 xsm:px-10"
+        >
+          <img src="assets/shared/logo.svg" alt="logo" />
+          <a
+            href="#"
+            class="uppercase text-1.6rem font-700 leading-2.6rem text-very-dark-blue py-6 px-11 bg-very-light-grey rounded-xl block transition-all duration-500 hover:bg-very-dark-blue hover:text-white mid:py-4 mid:px-6"
+          >
+            Pre-order now
+          </a>
+        </nav>
+        <section class="relative overflow-hidden">
+          <div
+            class="grid gap-20 grid-cols-2 max-w-144 mx-auto items-center px-36 pt-32 xlg:px-24 mid:px-16 mid:pt-16 smid:grid-cols-1 xsm:px-10"
+          >
+            <div class="flex flex-col gap-10">
+              <h1
+                class="text-5.6rem text-very-dark-blue font-900 uppercase leading-5.6rem mid:text-4.8rem mid:leading-4.8rem"
+              >
+                Typemaster keyboard
+              </h1>
+              <p
+                class="text-1.8rem text-light-grey font-500 leading-2.6rem pb-6 mid:text-1.6rem"
+              >
+                Improve your productivity and gaming without breaking the bank.
+                Upgrade to a high quality mechanical typing experience.
+              </p>
+              <div class="flex items-center gap-16 xsm:gap-8">
+                <a
+                  href="#"
+                  class="text-white text-1.6rem uppercase font-700 leading-2.6rem bg-orange py-6 px-11 rounded-xl transition-all duration-500 hover:bg-light-orange mid:py-4 mid:px-6 xsm:text-1.4rem"
+                >
+                  Pre-order now</a
+                >
+                <p
+                  class="text-1.6rem text-light-grey font-700 leading-2.6rem uppercase xsm:text-1.4rem"
+                >
+                  Release on 5/27
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-end smid:justify-start">
+              <picture
+                class="max-w-54 block rounded-2rem overflow-hidden mid:-mr-52 smid:w-full xsm:w-auto xsm:-mr-16"
+              >
+                <source
+                  srcset="assets/mobile/image-keyboard.jpg"
+                  media="(max-width: 700px)"
+                />
+                <source
+                  srcset="assets/tablet/image-keyboard.jpg"
+                  media="(max-width: 1000px)"
+                />
+                <img src="assets/desktop/image-keyboard.jpg" alt="keyboard" />
+              </picture>
+            </div>
+            <img
+              src="assets/shared/pattern-square.svg"
+              alt="square"
+              class="absolute -right-48 -z-10 xlg:hidden"
+            />
+          </div>
+        </section>
+      </header>
+      <main>
+        <section class="relative mb-52 smid:mb-24">
+          <section
+            class="grid grid-cols-4 gap-x-12 max-w-144 mx-auto px-36 items-center xlg:px-24 lg:grid-cols-3 lg:gap-y-20 mid:px-16 xsm:px-10 xsm:gap-x-8"
+          >
+            <picture
+              class="h-48 bg-orange rounded-2rem overflow-hidden smid:h-23 xsm:-ml-16"
+            >
+              <source
+                srcset="assets/mobile/image-phone-and-keyboard.jpg"
+                media="(max-width:700px)"
+                class="h-full mix-blend-multiply opacity-75 w-full object-cover"
+              />
+              <source
+                srcset="assets/tablet/image-phone-and-keyboard.jpg"
+                media="(max-width:1000px)"
+                class="h-full mix-blend-multiply opacity-75 w-full object-cover"
+              />
+              <img
+                src="assets/desktop/image-phone-and-keyboard.jpg"
+                alt="phone and keyboard"
+                class="h-full mix-blend-multiply opacity-75 w-full object-cover"
+              />
+            </picture>
+            <picture
+              class="col-start-2 col-end-4 h-48 rounded-2rem overflow-hidden smid:h-23"
+            >
+              <source
+                media="(max-width: 500px)"
+                srcset="assets/mobile/image-glass-and-keyboard.jpg"
+                class="h-full object-cover rounded-2rem"
+              />
+              <source
+                media="(max-width: 1000px)"
+                srcset="assets/tablet/image-glass-and-keyboard.jpg"
+                class="h-full object-cover rounded-2rem"
+              />
+              <img
+                src="assets/desktop/image-glass-and-keyboard.jpg"
+                alt="glass and keyboard"
+                class="h-full object-cover rounded-2rem"
+              />
+            </picture>
+            <div
+              class="flex flex-col gap-8 col-start-4 lg:flex-row lg:col-span-full sma:flex-col sma:text-center"
+            >
+              <h2
+                class="text-3.2rem font-900 leading-3.6rem uppercase text-very-dark-blue"
+              >
+                Mechanical wireless keyboard
+              </h2>
+              <p class="text-light-grey text-1.6rem font-500 leading-2.6rem">
+                The Typemaster keyboard boasts top-notch build and practical
+                design. It offers a wide variety of switches and keycaps, along
+                with reliable wireless connectivity.
+              </p>
+            </div>
+          </section>
+          <img
+            src="assets/shared/pattern-square.svg"
+            alt="square"
+            class="absolute bottom-0 -ml-48 -z-10 xlg:hidden"
+          />
+        </section>
+        <section
+          class="grid grid-cols-4 max-w-144 mx-auto px-36 gap-x-12 mb-52 xlg:px-24 lg:grid-cols-2 lg:gap-y-28 lg:gap-x-24 mid:px-16 sma:grid-cols-1 xsm:px-10 smid:mb-32"
+        >
+          <div
+            class="flex flex-col gap-10 items-start sma:items-center sma:text-center"
+          >
+            <img
+              src="assets/shared/icon-compatible.svg"
+              alt="compatible"
+              class="bg-orange py-8 px-8 rounded-2rem mb-9"
+            />
+            <h3
+              class="text-very-dark-blue text-2.4rem font-900 leading-2.8rem uppercase"
+            >
+              Highly compatible
+            </h3>
+            <p class="text-light-grey text-1.6rem font-500 leading-2.6rem">
+              Easy to use and works well with all major computer brands, gaming
+              consoles and mobile devices. Plug & play, no installation or
+              driver needed.
+            </p>
+          </div>
+          <div
+            class="flex flex-col gap-10 items-start sma:items-center sma:text-center"
+          >
+            <img
+              src="assets/shared/icon-bluetooth.svg"
+              alt="bluetooth"
+              class="bg-orange py-8 px-8 rounded-2rem mb-9"
+            />
+            <h3
+              class="text-very-dark-blue text-2.4rem font-900 leading-2.8rem uppercase"
+            >
+              Wireless with bluetooth
+            </h3>
+            <p class="text-light-grey text-1.6rem font-500 leading-2.6rem">
+              Powerful 2.4G RF technology allows you to connect the cordless
+              keyboard from up to 30ft away. Simply plug the unifying receiver
+              into your computer.
+            </p>
+          </div>
+          <div
+            class="flex flex-col gap-10 items-start sma:items-center sma:text-center"
+          >
+            <img
+              src="assets/shared/icon-battery.svg"
+              alt="battery"
+              class="bg-orange py-8 px-8 rounded-2rem mb-9"
+            />
+            <h3
+              class="text-very-dark-blue text-2.4rem font-900 leading-2.8rem uppercase"
+            >
+              High capacity battery
+            </h3>
+            <p class="text-light-grey text-1.6rem font-500 leading-2.6rem">
+              Equipped with a long-lasting built-in battery, you’ll never have
+              to spend a dime on replaceable ones.  Enjoy 40 hours of usage time
+              between charges.
+            </p>
+          </div>
+          <div
+            class="flex flex-col gap-10 items-start sma:items-center sma:text-center"
+          >
+            <img
+              src="assets/shared/icon-light.svg"
+              alt="light"
+              class="bg-orange py-8 px-8 rounded-2rem mb-9"
+            />
+            <h3
+              class="text-very-dark-blue text-2.4rem font-900 leading-2.8rem uppercase"
+            >
+              RGB backlit modes
+            </h3>
+            <p class="text-light-grey text-1.6rem font-500 leading-2.6rem">
+              Choose from 4 backlight brightness levels and adjustable breathing
+              speed. Each key glows intensely in the dark and helps you type in
+              low light conditions.
+            </p>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p
+          class="text-light-grey text-1.6rem font-700 leading-2.6rem text-center pb-20"
+        >
+          Typemaster 2021 <span class="font-500">| All Rights Reserved</span>
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
